@@ -146,62 +146,102 @@
                     Stanley Lewis, <b>Bahaa Aldeeb</b>, Anthony Opipari, Elizabeth A.
                     Olson, Cameron Kisailus, Odest Chadwicke Jenkins
                     <br>
-                    <em>Workshop @ Robotics: Science and Systems (RSS), 2021</em>
+                    <em>
+                      <a href="https://imrss2022.github.io/">
+                        Implicit Representations for Robotic Manipulation Workshop
+                      </a> @ RSS 2022
+                    </em>
                   </p>
                 </td>
               </tr>
             </tbody>
 
+          </table>
 
 
 
 
 
-            <table width="100%" align="center" border="0" cellspacing="0"
-              cellpadding="20">
-              <!--------------------------------------------------------------------------->
-              <!------------------------------------------------------------------------ -->
-              <!-- Augmentation For Dense Descriptors-->
+
+
+            <!--------------------------------------------------------------------------->
+            <!--------------------------------------------------------------------------->
+            <!----------------------------- HAC RRT Project ------------------------------>
+            <!-- HAC RRT Project -->
+            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+              <tbody>
+                  <td width="30%">
+                      <img src='./images/hac_rrt_path.png' width="100%">
+                  </td>
+              
+                  <td valign="top" width="70%">
+                      <p>
+                          <papertitle>
+                              <a href="https://github.com/baldeeb/HAC_RRT" target="_blank">
+                                  Safer Planning Using a Hierarchical Reinforcement-Learning Agent
+                              </a>
+                          </papertitle>
+                          <br>
+                          <em>
+                            <a href="./pdfs/hac-rrt-writeup.pdf" target="_blank">
+                              Project write-up
+                            </a>
+                            for 
+                            <a href="https://web.eecs.umich.edu/~dmitryb/courses/winter2022motionplanning/index.html">
+                              winter 2022 ROB 520
+                            </a>
+                            course @ UofM
+                          </em>
+                          <br>
+                          A class project in which I explored the potential of finding a safe path 
+                          while using reinforcement learning to learn dynamics.
+                          <br>
+                          I developed a Rapidly-Exploring Random-Tree (RRT) algorithm 
+                          that used the intermediate layers of a Hierarchical-Actor-Critic (HAC) 
+                          agent  to model state propagation. The RRT would discard proposed next 
+                          steps if they led to high Q-values. Attempting to reach random goals 
+                          exposes less risky paths.
+                      </p>
+                  </td>
+              </tr>
+              </tbody>
+  
+            </table>
+    
+            <!--------------------------------------------------------------------------->
+            <!--------------------------------------------------------------------------->
+            <!------------------- PHD-Filter Exploration -------------------->
+            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
               <tbody>
                 <td width="30%">
 
-                  <img src='./images/DenseDescriptor.png' width="100%">
+                  <img src='./images/PhdFilterPeopleTracking.gif' width="100%">
                 </td>
 
                 <td valign="top" width="70%">
 
-                  <p><papertitle>
-                      <a href="" target="_blank">Augmentation Contrastive
-                        Learning of Dense
-                        Descriptors</a>
+                  <p>
+                    <papertitle>
+                      <a href="" target="_blank">
+                        An Exploration of Probability-Hypothesis-Density Filters. 
+                      </a>
                     </papertitle>
                     <br>
-
-                    In Progress
+                    <a href="https://github.com/MobileRoboticistsW21/PHD-object-tracking" target="_blank">code</a>
                     <br>
-
-                    <!-- Additional Links -->
-                    <a href="https://google.com" target="_blank">code</a>
-                  </p>
-
-                  <p>
-                    brief description about the project
-                    brief description about the project brief description about
-                    the project brief description about the project
-                    brief description about the project brief description about
-                    the project
-                    brief description about the project brief description about
-                    the project brief description about the project
+                    To augment a course that does not explore the assumption of 
+                    having no association between sensor information and tracked
+                    object, my group explored PHD filters. The filter models the 
+                    extent of association as a Gaussian distribution.
+                    The project showed the success of the filter in certain settings
+                    and the general difficulty of estimating people (highly deformable 
+                    objects) using low dimensional (bounding box) tracks. 
                   </p>
                 </td>
               </tr>
             </tbody>
 
-
-
-
-
-
+          </table>
 
 
             <!-- Unsupervised Point Cloud Registration -->
@@ -239,7 +279,10 @@
               cellpadding="20">
               <tbody><tr> <td width="100%" valign="middle">
                     <heading>Teaching</heading>
-                  </td> </tr> </tbody></table>
+                  </td> 
+                </tr> 
+              </tbody>
+            </table>
 
 
             <table width="100%" align="center" border="0" cellspacing="0"
@@ -276,6 +319,7 @@
                 </td>
               </tr>
             </tbody>
+            </table>
 
 
 
