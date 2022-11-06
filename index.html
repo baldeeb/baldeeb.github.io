@@ -15,8 +15,7 @@
   </head>
 
   <body>
-    <table width="800" border="0" align="center" cellspacing="0"
-      cellpadding="0">
+    <table class="outmost-table" align="center">
 
       <tbody>
         <tr>
@@ -31,39 +30,36 @@
                     </p>
 
                     <p>
-                      I am currently working as a research staff member in the
-                      Robot Perception and Manipulation Laboratory lead by <a
-                        target="_blank" href="https://karthikdesingh.com/">Professor
-                        Karthik Desingh</a> at the University of Minnesota
-                      Twin-city.
+                      I am a researcher interested in mobile robot perception and 
+                      machine learning. Exploring ways of leveraging weak signals 
+                      to boostrap the learning of perception towards mobile manipulation
+                      piques my interest.
                     </p>
                     <p>
-                      Prior to that I had earned my Masters in Robotics in 2020
+                      Currently, I work as a research staff member in the
+                      Robotics, Perception, and Manipulation Laboratory lead by <a
+                      target="_blank" href="https://karthikdesingh.com/">Professor
+                      Karthik Desingh</a> at the University of Minnesota, Twin-city.
+                      I am also looking to join a Ph.D. program this comming year to
+                      continue exploring this field. 
+                    </p>
+                    <p>
+                      Prior to that I earned my Masters in Robotics in 2020
                       and a Bachelors in Computer Engineering in 2017, from
                       University of Michigan. Through the years I also worked on
                       autonomous vehicle perception and assisted in running
                       laboratory courses on autonomous robotics alongside my
-                      studies.
-                    </p>
-
-                    <p>
-                      I am interested in robot perception and ways to allow the
-                      embodied agents to utilize such knowledge to operate in
-                      the real world. Self-supervised methods for train towards
-                      perception for manipulation piques my interest. I join
-                      professor Desingh's lab in an interest to research and
-                      explore that realm and am hope to pursue this topic as
-                      part of a Ph.D. next year.
+                      graduate studies.
                     </p>
 
                     <p align="center">
-                      <a href="baldeeb.github.io" target="_blank"> aldeeb {dot}
-                        bahaa {at} gmail
-                        {dot} com</a>
-                      |
+                      <!-- <a href="baldeeb.github.io" target="_blank">  -->
+                        <b>aldeeb dot bahaa at gmail</b>
+                      <!-- </a> -->
+                      <br>
                       <a href="./pdfs/Resume.pdf" target="_blank"> CV </a>
                       |
-                      <!-- <a href="https://scholar.google.com/citations?user=Iwe1QVEAAAAJ&hl">  Scholar  </a> -->
+                      <a href="https://www.linkedin.com/in/bahaa-aldeeb/">  LinkedIn  </a>
                       |
                       <a href="https://github.com/baldeeb" target="_blank">
                         GitHub </a>
@@ -110,7 +106,7 @@
               cellpadding="20">
               <tbody>
                 <tr>
-                  <td width="100%" valign="middle">
+                  <td width="100%" valign="middle" class="part-header-td">
                     <heading>Recent Projects</heading>
                   </td>
                 </tr>
@@ -119,9 +115,14 @@
 
             <table width="100%" align="center" border="0" cellspacing="0"
               cellpadding="20">
+             
+             
+             
               <!--------------------------------------------------------------------------->
-              <!------------------------------------------------------------------------ -->
-              <!-- Augmentation For Dense Descriptors-->
+              <!--------------------------------------------------------------------------->
+              <!------------------------------ NeRF-Frenemy ------------------------------->
+              <!--------------------------------------------------------------------------->
+              <!--------------------------------------------------------------------------->
               <tbody>
                 <td width="30%">
 
@@ -150,7 +151,12 @@
                       <a href="https://imrss2022.github.io/">
                         Implicit Representations for Robotic Manipulation Workshop
                       </a> @ RSS 2022
-                    </em>
+                    </em> 
+                    <br>
+                    <br style="line-height: 8px;">
+                    We explore the use opf object models along with
+                    a pose estimation model, to automatically enform object
+                    design that fascilitate pose estimation. 
                   </p>
                 </td>
               </tr>
@@ -158,20 +164,15 @@
 
           </table>
 
-
-
-
-
-
-
             <!--------------------------------------------------------------------------->
             <!--------------------------------------------------------------------------->
             <!----------------------------- HAC RRT Project ------------------------------>
-            <!-- HAC RRT Project -->
+            <!--------------------------------------------------------------------------->
+            <!--------------------------------------------------------------------------->
             <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
               <tbody>
-                  <td width="30%">
-                      <img src='./images/hac_rrt_path.png' width="100%">
+                  <td width="30%" style="text-align: center;">
+                      <img src='./images/hac_rrt_path.png' width="75%">
                   </td>
               
                   <td valign="top" width="70%">
@@ -192,15 +193,56 @@
                             </a>
                             course @ UofM
                           </em>
-                          <br>
+                          <!-- <br>
                           A class project in which I explored the potential of finding a safe path 
-                          while using reinforcement learning to learn dynamics.
+                          while using reinforcement learning to learn dynamics. -->
                           <br>
+                          <br style="line-height: 8px;">
                           I developed a Rapidly-Exploring Random-Tree (RRT) algorithm 
                           that used the intermediate layers of a Hierarchical-Actor-Critic (HAC) 
-                          agent  to model state propagation. The RRT would discard proposed next 
+                          agent to model state propagation. In Doing so, I deomstrate the use of an 
+                          RL agent for planning and the use of Q-fuctions to encourage
+                          safer long-horizon plans.
+                          <!-- The RRT would discard proposed next 
                           steps if they led to high Q-values. Attempting to reach random goals 
-                          exposes less risky paths.
+                          exposes less risky paths. -->
+                      </p>
+                  </td>
+              </tr>
+              </tbody>
+  
+            </table>
+
+            <!--------------------------------------------------------------------------->
+            <!--------------------------------------------------------------------------->
+            <!---------------------------- Dense Descriptors ---------------------------->
+            <!--------------------------------------------------------------------------->
+            <!--------------------------------------------------------------------------->
+            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+              <tbody>
+                  <td width="30%">
+                      <img src='./images/DenseDescriptorsWithLoss.png' width="100%">
+                  </td>
+              
+                  <td valign="top" width="70%">
+                      <p>
+                          <papertitle>
+                              <a href="pending" target="_blank">
+                                Evolving Dense Descriptors Towards Fine Manipulation
+                              </a>
+                          </papertitle>
+                          <br>
+                          <em>
+                            <a href="pending" target="_blank">
+                              Brief write-up
+                            </a>
+                            of a Fall 2021 study under 
+                            <a href="https://ocj.name/"  target="_blank"> Professor Chad Jenkins </a> 
+                          </em><br>
+                          <br style="line-height: 8px;">
+                          To training dense descriptors for fine object manipulation, we construct
+                          a more granular model and explore losses that encouraged
+                          the model to encode a sense of parts and poses.  
                       </p>
                   </td>
               </tr>
@@ -211,6 +253,8 @@
             <!--------------------------------------------------------------------------->
             <!--------------------------------------------------------------------------->
             <!------------------- PHD-Filter Exploration -------------------->
+            <!--------------------------------------------------------------------------->
+            <!--------------------------------------------------------------------------->
             <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
               <tbody>
                 <td width="30%">
@@ -227,12 +271,16 @@
                       </a>
                     </papertitle>
                     <br>
-                    <a href="https://github.com/MobileRoboticistsW21/PHD-object-tracking" target="_blank">code</a>
-                    <br>
-                    To augment a course that does not explore the assumption of 
-                    having no association between sensor information and tracked
-                    object, my group explored PHD filters. The filter models the 
-                    extent of association as a Gaussian distribution.
+                    <em>
+                    <a href="https://github.com/UMich-CURLY-teaching/UMich-ROB-530-public" target="_blank">Code</a> 
+                    for Winter 2021 
+                    <a href="https://github.com/UMich-CURLY-teaching/UMich-ROB-530-public">Mobile Robotics</a> 
+                      course project
+                    </em><br>
+                    <br style="line-height: 8px;">
+                    We explore a object tracking filter that does not assume any track association, 
+                    unlike variants that the course discusses. The P.H.D. filter models the 
+                    extent of track association as a Gaussian distribution.
                     The project showed the success of the filter in certain settings
                     and the general difficulty of estimating people (highly deformable 
                     objects) using low dimensional (bounding box) tracks. 
@@ -244,81 +292,103 @@
           </table>
 
 
-            <!-- Unsupervised Point Cloud Registration -->
-            <!-- <tbody>
-  <td width="30%">
+          
+          <!--------------------------------------------------------------------------->
+          <!--------------------------------------------------------------------------->
+          <!------------------------------ Other Projects ----------------------------->
+          <!--------------------------------------------------------------------------->
+          <!--------------------------------------------------------------------------->
+          
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody> <tr> <td width="100%" valign="top">
+            
+              <heading style="line-height: 2em;">
+                Other Projects
+              </heading>
+              <br>
+              <table width="100%" valign="top" border="0" cellspacing="0" cellpadding="2">
 
-  <img src='./unsupervisedrr/teaser.png' width="100%">
-  </td>
+                <tr valign="top"> 
+                  <td>  
+                    <br style="line-height: 8px;">
+                    <papertitle> <a href="./pdfs/SPPFNet.pdf" target="_blank">
+                      Sparse Neural Generative Inference Based Pose Estimation
+                    </a> </papertitle> 
+                    <br>
+                    <em> Advanced Computer Vision - Fall 2020</em>
+                  <br> 
+                    We envisioned a light weight pose estimation model that learns end-to-end to
+                    leverages moving particles that sample portions of the image to inform object pose
+                    estimation.  
+                  </td> 
+                </tr>
+                <tr valign="top"> 
+                  <td>  
+                    <br style="line-height: 8px;">
+                    <papertitle> <a href="https://www.youtube.com/watch?v=Q4Nzotdwz_s">
+                        SLAM Using Hybrid Maps
+                    </a> </papertitle> 
+                    <br>
+                    <em> Introduction to Autonomous Robotics - Winter 2018</em>
+                  <br> 
+                  Implemented SLAM using a hybrid of dense and topological maps on a 
+                  robot equipped with a single beam LIDAR for the purpose of reducing 
+                  time complexity and memory usage.  
+                  </td> 
+                </tr>
+                
 
-  <td valign="top" width="70%">
+              </table>
+            </td> </tr> </tbody>
+          </table>
 
-  <p><papertitle>
-  <a href="./unsupervisedrr/index.html">UnsupervisedR&R: Unsupervised Point Cloud Registration via Differentiable Rendering</a>
-  </papertitle>
-  <br>
-  <b>Mohamed El Banani</b>, <a href="https://scholar.google.com/citations?user=OHk0dbgAAAAJ">Luya Gao</a>, and <a href="https://web.eecs.umich.edu/~justincj/">Justin Johnson</a>
-  <br>
-  CVPR 2021 (Oral)
-  <br> -->
-            <!-- Additional Links -->
-            <!-- <a href="https://arxiv.org/abs/2102.11870">paper</a> 
-  | 
-  <a href="https://github.com/mbanani/unsupervisedrr">code</a>
-  |
-  <a href="./unsupervisedrr/bibtex.txt">bibtex</a>
-  </p>
 
-  <p> 
-  How can we leverage RGB-D videos for learning point cloud registration? We propose a register and render approach that achieves accurate point cloud registration through minimizing photometric and geometric losses from renders of the point cloud. 
-  </p>
-  </td> </tr> </tbody> -->
+
+
             <!--------------------------------------------------------------------------->
             <!--------------------------------------------------------------------------->
-            <table width="100%" align="center" border="0" cellspacing="0"
+            <!----------------------------------  Teaching  ----------------------------->
+            <!--------------------------------------------------------------------------->
+            <!--------------------------------------------------------------------------->
+            <!-- <table width="100%" align="center" border="0" cellspacing="0"
               cellpadding="20">
-              <tbody><tr> <td width="100%" valign="middle">
+              <tbody><tr> <td width="100%" valign="middle" class="part-header-td">
                     <heading>Teaching</heading>
                   </td> 
                 </tr> 
               </tbody>
-            </table>
+            </table> -->
 
 
             <table width="100%" align="center" border="0" cellspacing="0"
               cellpadding="20">
               <tbody>
+                <tr>
+                  <td width="100%" valign="middle" class="part-header-td", style="padding-bottom:0;">
+                    <heading>Teaching</heading>
+                  </td>
+                </tr> 
+                <tr>
+                  <td valign="center" width="70%">
+                    <p>
+                      <a href="https://youtu.be/mMpqfWPHeX4">ROB 550</a>: Robotics Laboratory
+                      (Winter & Fall 2021)<br>
+                      Graduate Student Instructor with <a href="https://robotics.umich.edu/profile/peter-gaskell/">Dr.
+                        Peter Gaskell</a>
+                    </p>
+                    <p>
+                      <a
+                        href="https://web.eecs.umich.edu/~kuipers/teaching/eecs467-F20.html">
+                        EECS 467</a>: Introduction to Autonomous Robotics (Fall 2020)
+                      <br>
+                      Graduate Student Instructor with <a
+                        href="https://robotics.umich.edu/profile/benjamin-kuipers/">Professor
+                        Benjamin Kuipers</a>
+                    </p>
 
-                <!-- Image -->
-                <!-- <td width="30%">
-                  <center> <img src='./images/magritte_pipe_cv.jpg' width="100%" alt="Picture Source: UC Berkeley Vision Group"> </center>
-                  <center><figcaption>
-                  <a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/shape/image/margritti-this-is-not-a-pipe.jpg">source</a>
-                  </figcaption></center>            
-                  </td> -->
-                <!-- Teaching part -->
-                <td valign="center" width="70%">
-                  <p>
-                    <a href="https://youtu.be/mMpqfWPHeX4"> Winter and Fall 2021
-                      - ROB 550: Robotics Laboratory</a>
-                    <br>
-                    GSI with <a
-                      href="https://robotics.umich.edu/profile/peter-gaskell/">Dr.
-                      Peter Gaskell</a>
-                  </p>
-                  <p>
-                    <a
-                      href="https://web.eecs.umich.edu/~kuipers/teaching/eecs467-F20.html">Fall
-                      2020 - EECS 467: Introduction to Autonomous Robotics</a>
-                    <br>
-                    GSI with <a
-                      href="https://robotics.umich.edu/profile/benjamin-kuipers/">Professor
-                      Benjamin Kuipers</a>
-                  </p>
-
-                </td>
-              </tr>
-            </tbody>
+                  </td>
+                </tr>
+              </tbody>
             </table>
 
 
