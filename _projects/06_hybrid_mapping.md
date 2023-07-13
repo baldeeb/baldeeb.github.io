@@ -7,6 +7,9 @@ importance: 1
 category: Academic - Undergraduate
 ---
 
+Implemented SLAM using a hybrid of dense and topological maps on a 
+robot equipped with a single beam LIDAR for the purpose of reducing 
+time complexity and memory usage.  
 
 <!--------------------------------------------------------------------------->
 <!--------------------------------------------------------------------------->

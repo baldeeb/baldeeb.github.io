@@ -8,6 +8,12 @@ category: Academic - Masters
 ---
 
 
+We explore an object tracking filter that does not assume any association, 
+unlike variants that the course discusses. The P.H.D. filter models the 
+extent of track association as a Gaussian distribution.
+The project showed the success of the filter in certain settings
+and the general difficulty of estimating people (highly deformable 
+objects) using low dimensional (bounding box) tracks. 
 
 <!--------------------------------------------------------------------------->
 <!--------------------------------------------------------------------------->
@@ -43,5 +49,4 @@ category: Academic - Masters
     </td>
     </tr>
 </tbody>
-
 </table>

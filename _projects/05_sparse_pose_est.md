@@ -8,7 +8,9 @@ category: Academic - Masters
 ---
 
 
-
+We envisioned a light weight pose estimation model that learns end-to-end to
+leverage moving particles that sample portions of the image to inform object pose
+estimation.    
 
 <!--------------------------------------------------------------------------->
 <!--------------------------------------------------------------------------->

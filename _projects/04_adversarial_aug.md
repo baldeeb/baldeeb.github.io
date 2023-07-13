@@ -7,6 +7,9 @@ importance: 1
 category: Academic - Masters
 ---
 
+We explored the benefit of training a non-contrastive model using 
+structured adversarial augmentation.   
+
 
 <!--------------------------------------------------------------------------->
 <!--------------------------------------------------------------------------->
@@ -22,7 +25,6 @@ category: Academic - Masters
     <td valign="top" width="70%">
         <p>
         <papertitle>
-            
         </papertitle>
         <br>
         <em>
@@ -41,7 +43,6 @@ category: Academic - Masters
     </td>
     </tr>
 </tbody>
-
 </table>
 
 
