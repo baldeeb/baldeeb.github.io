@@ -12,7 +12,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Planning with Hierarchical Reinforcement-Learning Agents | Bahaa  Aldeeb</title>
     <meta name="author" content="Bahaa  Aldeeb">
-    <meta name="description" content="Motion Planning Course - Winter 2022 - Professor Dmitry Berenson">
+    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -120,58 +121,37 @@
 
           <header class="post-header">
             <h1 class="post-title">Planning with Hierarchical Reinforcement-Learning Agents</h1>
-            <p class="post-description">Motion Planning Course - Winter 2022 - Professor Dmitry Berenson</p>
+            <p class="post-description"></p>
           </header>
 
           <article>
-            <p>I developed a Rapidly-Exploring Random-Tree (RRT) algorithm 
-that used the intermediate layers of a Hierarchical-Actor-Critic (HAC) 
-agent to model state propagation. In doing so, I demostrate the use of an 
-RL agent for planning and the use of Q-fuctions to encourage
-safer long-horizon plans.</p>
+            <p><img class="emoji" title=":page_facing_up:" alt=":page_facing_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c4.png" height="20" width="20"> <a href="/pdfs/hac-rrt-writeup.pdf">report</a></p>
 
-<!--------------------------------------------------------------------------->
-<!--------------------------------------------------------------------------->
-<!----------------------------- HAC RRT Project ------------------------------>
-<!--------------------------------------------------------------------------->
-<!--------------------------------------------------------------------------->
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-    <tbody>
-        <td width="30%" style="text-align: center;">
-            <img src="./images/hac_rrt_path.png" width="75%">
-        </td>
-        <td valign="top" width="70%">
-            <p>
-                <papertitle>
-                Safer Planning Using a Hierarchical Reinforcement-Learning Agent
-                </papertitle>
-                <br>
-                <em>
-                <a href="https://web.eecs.umich.edu/~dmitryb/courses/winter2022motionplanning/index.html" target="_blank" rel="external nofollow noopener">
-                    Motion Planning
-                </a>
-                - Winter 2022 - Professor Dmitry Berenson
-                <br>
-                [<a href="./pdfs/hac-rrt-writeup.pdf" target="_blank">report</a>]
-                </em>
-                <!-- <br>
-                A class project in which I explored the potential of finding a safe path 
-                while using reinforcement learning to learn dynamics. -->
-                <br>
-                <br style="line-height: 8px;">
-                I developed a Rapidly-Exploring Random-Tree (RRT) algorithm 
-                that used the intermediate layers of a Hierarchical-Actor-Critic (HAC) 
-                agent to model state propagation. In doing so, I demostrate the use of an 
-                RL agent for planning and the use of Q-fuctions to encourage
-                safer long-horizon plans.
-                <!-- The RRT would discard proposed next 
-                steps if they led to high Q-values. Attempting to reach random goals 
-                exposes less risky paths. -->
-            </p>
-        </td>
-    &lt;/tr&gt;
-    </tbody>
-</table>
+<p><a href="https://web.eecs.umich.edu/~dmitryb/courses/winter2022motionplanning/index.html" rel="external nofollow noopener" target="_blank">Motion Planning Course</a> - Winter 2022 - Professor Dmitry Berenson</p>
+
+<p>I developed a Rapidly-Exploring Random-Tree (RRT) algorithm that used the intermediate layers of a Hierarchical-Actor-Critic (HAC) agent to model state propagation. In doing so, I demostrate the use of an RL agent for planning and the use of Q-fuctions to encourage safer long-horizon plans.</p>
+
+<div class="col-sm">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/al-folio/assets/img/hacrrt-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/al-folio/assets/img/hacrrt-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/al-folio/assets/img/hacrrt-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/al-folio/assets/img/hacrrt.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+</div>
+<div class="caption">
+    The image shows the paths explored by the RRT that utilizes a hierarchical-actor-critic agents' policy to predict take steps, and the agents' Q-functions to detrmine the quality of the predicted path. Different levels of the hierarchy weigh on the path's quality to explore and produce more promising paths.
+</div>
 
           </article>
 

@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-### [ROB 102](https://robotics102.github.io/)
+### [ROB 102: Introduction to AI and Programming](https://robotics102.github.io/)
 
 Research Assistant with [professor Chad Jenkins](https://ocj.name/) - *Winter 2022*
 

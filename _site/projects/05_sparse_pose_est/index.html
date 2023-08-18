@@ -12,7 +12,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sparse Neural Generative Inference Based Pose Estimation | Bahaa  Aldeeb</title>
     <meta name="author" content="Bahaa  Aldeeb">
-    <meta name="description" content="Advanced Computer Vision Course - Fall 2020 - Professor David Fouhey">
+    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -120,49 +121,37 @@
 
           <header class="post-header">
             <h1 class="post-title">Sparse Neural Generative Inference Based Pose Estimation</h1>
-            <p class="post-description">Advanced Computer Vision Course - Fall 2020 - Professor David Fouhey</p>
+            <p class="post-description"></p>
           </header>
 
           <article>
-            <p>We envisioned a light weight pose estimation model that learns end-to-end to
-leverage moving particles that sample portions of the image to inform object pose
-estimation.</p>
+            <p><img class="emoji" title=":page_facing_up:" alt=":page_facing_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c4.png" height="20" width="20"> <a href="./pdfs/SPPFNet.pdf">report</a></p>
 
-<!--------------------------------------------------------------------------->
-<!--------------------------------------------------------------------------->
-<!------------------- Sparse Pose Estimation -------------------->
-<!--------------------------------------------------------------------------->
-<!--------------------------------------------------------------------------->
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-    <tbody>
-    <td width="30%">
-        <img src="./images/SSPF.png" width="100%">
-    </td>
-    <td valign="top" width="70%">
-        <p>
-        <papertitle>
-            Sparse Neural Generative Inference Based Pose Estimation
-        </papertitle>
-        <br>
-        <em>
-            <a href="https://web.eecs.umich.edu/~fouhey/teaching/EECS542_F20/" target="_blank" rel="external nofollow noopener">
-            Advanced Computer Vision
-            </a> 
-            - Fall 2020 - Professor David Fouhey
-            <br>
-            [<a href="./pdfs/SPPFNet.pdf" target="_blank">report</a>]
-        </em>
-        <br> <br style="line-height: 8px;">
-        We envisioned a light weight pose estimation model that learns end-to-end to
-        leverage moving particles that sample portions of the image to inform object pose
-        estimation.    
-        </p>
-    </td>
-    &lt;/tr&gt;
-</tbody>
+<p><a href="https://web.eecs.umich.edu/~fouhey/teaching/EECS542_F20/" rel="external nofollow noopener" target="_blank">Advanced Computer Vision</a> - Fall 2020 - Professor David Fouhey</p>
 
-</table>
+<p>We envisioned a light weight pose estimation model that learns end-to-end to leverage moving particles that sample portions of the image to inform object pose estimation.</p>
 
+<div class="col-sm ">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/al-folio/assets/img/SSPF-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/al-folio/assets/img/SSPF-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/al-folio/assets/img/SSPF-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/al-folio/assets/img/SSPF.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+</div>
+<div class="caption">
+    The image shows the produced pipeline. Movitated by reducing model and time coplexity, we aimed to utilize particle-filter like sampling to attend to areas where objects might be present in high resolution images.
+</div>
 
           </article>
 
