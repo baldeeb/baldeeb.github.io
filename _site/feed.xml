@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4001/al-folio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/al-folio/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-08-20T22:33:15-05:00</updated><id>http://localhost:4001/al-folio/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">A Year With Boston Dynamics Spot</title><link href="http://localhost:4001/al-folio/blog/2023/spot-bosdyn-work/" rel="alternate" type="text/html" title="A Year With Boston Dynamics Spot" /><published>2023-07-30T10:00:00-05:00</published><updated>2023-07-30T10:00:00-05:00</updated><id>http://localhost:4001/al-folio/blog/2023/spot-bosdyn-work</id><content type="html" xml:base="http://localhost:4001/al-folio/blog/2023/spot-bosdyn-work/"><![CDATA[<p>A few months after starting at the Robotics: Perception &amp; Manipulation lab, we <a href="https://cse.umn.edu/cs/news/desingh-lab-unpacks-first-spot-robot-boston-dynamics">recieved our spot robot</a>. I was tasked with setting it up and building it tools that could facilitate research towards mobile manipulation. Many tasks ran alongside this work but throughout the year much thought was given towards what might be worth exploring and setting up to advance research around using movile manipulators in domestic settings towards task execution.</p>
+
+<p>Thanks to all the open sourced code and Boston Dynamics’ great engineering, I managed to assemble a set of tools to facilitate and complement the use of the Spot Robot. By adding onto existant tools and chaining capabilities, Spot became ready for demonstrating perceptually and dynamically complex tasks such as detecting and dragging a chair.</p>
+
+<div class="row mt-2">
+    <div class="col-sm mt-2 mt-md-0">
+        <!-- 
+
+<figure>
+
+  
+
+  <video
+    src="/al-folio/assets/video/excel_spot_chair/tracking_chair.mp4"
+    class="img-fluid rounded z-depth-1"
+    width="auto"
+    height="auto"
+    
+    
+    
+    
+    
+    
+    autoplay
+    controls
+    
+    
+    
+  />
+
+  
+
+</figure>
+ -->
+        <iframe src="https://drive.google.com/file/d/1CRGFCi3UDZxn60pNHLN6Q5gQvilM__WB/preview?mute=1" allow="autoplay"></iframe>
+    </div>
+    <div class="col-sm mt-2 mt-md-0">
+        <!-- 
+
+<figure>
+
+  
+
+  <video
+    src="/al-folio/assets/video/excel_spot_chair/grabbing_chair.mp4"
+    class="img-fluid rounded z-depth-1"
+    width="auto"
+    height="auto"
+    
+    
+    
+    
+    
+    
+    
+    controls
+    
+    
+    
+  />
+
+  
+
+</figure>
+ -->
+        <iframe src="https://drive.google.com/file/d/1HjGXmrSYA209F4m5mcokDUraG6_SgnAC/preview?mute=1" allow="autoplay"></iframe>
+    </div>
+</div>
+<div class="caption">
+    Demonstrating spot's engineered grasping tools at an Excel Engineering conference. This demonstration complement the discussion around the difficulties and importance of further researching robot learning of perception and manipultion. These demonstration tools are now used to collect robot training data.
+</div>
+
+<p>Needless to say, this was the only beginning of our exploration. Our initial efforts were geared towards utilizing pre-trained 2D-models (CLIP, DINO, …) and dense correspondences (NOCS). Soon after, our focus shifted to exploring the use of multi-task imitation learning 3D models such as <a href="https://peract.github.io/">PerAct</a>. We took on the challenge of expanding such model to dynamically complex tasks and mobile manipluation. We set our sight on the furnature rearrangement and house tasks. Future posts will be dedicated to the technical details.</p>
+
+<div class="container">
+<div class="row justify-content-md-center">
+    <div class="col-6">
+        <!-- 
+
+<figure>
+
+  
+
+  <video
+    src="/al-folio/assets/video/20230429_spot_chair_pitch_final.mp4"
+    class="img-fluid rounded z-depth-1"
+    width="auto"
+    height="auto"
+    
+    
+    
+    
+    
+    
+    autoplay
+    controls
+    
+    
+    
+  />
+
+  
+
+</figure>
+ -->
+        <iframe src="https://drive.google.com/file/d/12V2PiA86X8rsWzxrB732bLIm3iUmxYQI/preview?mute=1" allow="autoplay"></iframe>
+    </div>
+</div>
+    <div class="caption">
+        Teleoperated demonstration of the intedned outcome. Model results will be added in the future.
+    </div>
+</div>
+
+<p>Apart from this experience being a major research edeavor, it coupled with an opportunity to lead a group of undergraduates interested in pursuing robotics research. I wrote project proposals for 2 works that are being carried out partly by 5 capable undergrads. Seeing their work come to fruition has been rewarding.</p>
+
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-4">
+            <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/al-folio/assets/img/spot_undergraduate_crew-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/al-folio/assets/img/spot_undergraduate_crew-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/al-folio/assets/img/spot_undergraduate_crew-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/al-folio/assets/img/spot_undergraduate_crew.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+        </div>
+        <div class="col-8">
+            <!-- 
+
+<figure>
+
+  
+
+  <iframe
+    src="https://drive.google.com/file/d/1otIK2uVudY0fnEes0oEtdQRIl3rkCZU9/preview"
+    class="img-fluid rounded z-depth-1"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    width="auto"
+    height="auto"
+    
+    
+    
+    
+    
+    
+  />
+
+  
+
+</figure>
+ -->
+            <iframe src="https://drive.google.com/file/d/1otIK2uVudY0fnEes0oEtdQRIl3rkCZU9/preview?mute=1" allow="autoplay"></iframe>
+        </div>
+    </div>
+    <div class="caption">
+        On the right side is the group of students who worked with me in the lab through the summer of 2023. To the right is a debut of one of the works from the group that exposes the path record replay abilities and results using Rviz. More results are coming soon!
+    </div>
+</div>]]></content><author><name></name></author><category term="RPM-lab" /><category term="spot-bosdyn" /><summary type="html"><![CDATA[A few months after starting at the Robotics: Perception &amp; Manipulation lab, we recieved our spot robot. I was tasked with setting it up and building it tools that could facilitate research towards mobile manipulation. Many tasks ran alongside this work but throughout the year much thought was given towards what might be worth exploring and setting up to advance research around using movile manipulators in domestic settings towards task execution.]]></summary></entry></feed>
