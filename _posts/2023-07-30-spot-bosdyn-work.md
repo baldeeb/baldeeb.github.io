@@ -38,7 +38,6 @@ Needless to say, this was the only beginning of our exploration. Our initial eff
     </div>
 </div>
 
-
 Apart from this experience being a major research edeavor, it coupled with an opportunity to lead a group of undergraduates interested in pursuing robotics research. I wrote project proposals for 2 works that are being carried out partly by 5 capable undergrads. Seeing their work come to fruition has been rewarding.
 
 <div class="container">
