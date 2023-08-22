@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Decided to the [RPM lab](https://rpm-lab.github.io/allnews.html) as a Robotics & Vision researcher.
+Decided to join [RPM lab](https://rpm-lab.github.io/allnews.html) as a Robotics & Vision researcher.
 
