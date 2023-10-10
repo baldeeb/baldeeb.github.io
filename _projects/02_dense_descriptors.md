@@ -7,7 +7,7 @@ importance: 1
 category: Academic - Masters
 ---
 
-:page_facing_up: [abridged report](./pdfs/Abbreviated-Writup-Evolving-Dense-Descriptors-Towards-Fine-Manipulation.pdf)
+:page_facing_up: [abridged report](/assets/pdf/Abbreviated-Writup-Evolving-Dense-Descriptors-Towards-Fine-Manipulation.pdf)
 
 Directed Study - Fall 2021 - [Professor Chad Jenkins](https://ocj.name/)
 

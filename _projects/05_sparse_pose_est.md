@@ -7,7 +7,7 @@ importance: 1
 category: Academic - Masters
 ---
 
-:page_facing_up: [report](./pdfs/SPPFNet.pdf)
+:page_facing_up: [report](/assets/pdf/SPPFNet.pdf)
 
 [Advanced Computer Vision](https://web.eecs.umich.edu/~fouhey/teaching/EECS542_F20/) - Fall 2020 - Professor David Fouhey
 

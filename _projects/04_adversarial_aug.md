@@ -6,7 +6,7 @@ img: assets/img/AdversarialAug.png
 importance: 1
 category: Academic - Masters
 ---
-:page_facing_up: [report](./pdfs/Adversarial-Augmentations-for-non-Contrastive-Learning.pdf)
+:page_facing_up: [report](/assets/pdf/Adversarial-Augmentations-for-non-Contrastive-Learning.pdf)
 
 [Unsupervised Visual Learning](https://web.eecs.umich.edu/~ahowens/eecs598-012/w21/) - Winter2021 - Proessor Andrew Owens
 

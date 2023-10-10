@@ -7,7 +7,7 @@ importance: 1
 category: Academic - Masters
 ---
 
-:page_facing_up: [report](/pdfs/hac-rrt-writeup.pdf)
+:page_facing_up: [report](/assets/pdf/hac-rrt-writeup.pdf)
 
 [Motion Planning Course](https://web.eecs.umich.edu/~dmitryb/courses/winter2022motionplanning/index.html) - Winter 2022 - Professor Dmitry Berenson
 
