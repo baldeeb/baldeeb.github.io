@@ -22,4 +22,4 @@ Currently, I work as a research staff member in the [Robotics, Perception, and M
 
 Prior to that I earned my Masters in Robotics in 2022 and a Bachelors in Computer Engineering in 2017, from University of Michigan. I also worked as a Perception Algorithm Engineer between 2018 and 2020. 
 
-I have had the forture of holding positions at various copanies including [The University of Minnesota](https://rpm-lab.github.io/team/), [The University of Michigan](https://robotics.umich.edu/), [Zenuity](), [Toyota](https://amrd.toyota.com/division/ivs/), [Tesla](https://www.tesla.com/), and [ZF](https://www.zf.com/usa_canada/en/home/home.html).
+I have had the forture of holding positions at various companies including [The University of Minnesota](https://rpm-lab.github.io/team/), [The University of Michigan](https://robotics.umich.edu/), [Zenuity](), [Toyota](https://amrd.toyota.com/division/ivs/), [Tesla](https://www.tesla.com/), and [ZF](https://www.zf.com/usa_canada/en/home/home.html).
