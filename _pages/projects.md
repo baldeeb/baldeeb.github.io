@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of projects that did not make publications. These include research projects that explored novel ideas as well as projects taken on for the purpose of learning.
 nav: true
 nav_order: 2
-display_categories: [Academic - Masters, Academic - Undergraduate]
+display_categories: [Academic - Researcher, Academic - Masters, Academic - Undergraduate]
 horizontal: true
 ---
 
